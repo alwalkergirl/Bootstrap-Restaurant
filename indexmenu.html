@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Restaurant</title>
+    <link rel="stylesheet" href="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\styles.css">
+</head>
+<body>
+    <nav class="topnav">
+        <div class="container-fluid">
+          <div class="name" >
+           <h1> Bootstrap Restaurant</h1>
+          </div>
+        </div>
+        <nav class="navbar">
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar">
+                <a class="nav-item" href="C:\Users\HP\Coding\Bootstrap Restaurant\index.html">Home</a>
+                <a class="nav-item" href="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\indexmenu.html">Menu</a>
+                <a class="nav-item" href="C:\Users\HP\Coding\Bootstrap Restaurant\Hours\indexhours.html">Hours</a>
+                <a class="nav-item" href="C:\Users\HP\Coding\Bootstrap Restaurant\Ordering\indexordering.html">Ordering</a>
+                <a class="nav-item" href="C:\Users\HP\Coding\Bootstrap Restaurant\ContactUs\indexcontact.html">Contact Us</a>
+              </div>
+            </div>
+          </nav>
+      </nav>  
+      <h2 class="food"> Apitizers </h2>
+    <section>
+        <figure class="figure">
+            <img src="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\Appitizers\aleisha-kalina-DQ_17uY9fjw-unsplash.jpg" class="figure-img img-fluid rounded" alt="Apitizer1">
+            <figcaption class="figure-caption text-end">Calamary</figcaption>
+        </figure>
+        <figure class="figure">
+            <img src="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\Appitizers\aleisha-kalina-wDg4-cdsq3Y-unsplash.jpg" class="figure-img img-fluid rounded" alt="Apitizer2">
+            <figcaption class="figure-caption text-end">Mexican Street Corn</figcaption>
+        </figure>
+        <figure class="figure">
+            <img src="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\Appitizers\aleisha-kalina-VgCU32K0o1M-unsplash.jpg" class="figure-img img-fluid rounded" alt="Apitizer3">
+            <figcaption class="figure-caption text-end">Salmon appitizer</figcaption>
+        </figure>
+    </section> 
+    <h2 class="food"> Entrees </h2>
+    <section>
+        <figure class="figure">
+            <img src="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\Entrees\clark-douglas-7WJV-SDSj6c-unsplash.jpg" class="figure-img img-fluid rounded" alt="Entree1">
+            <figcaption class="figure-caption text-end">Steak and potatoes</figcaption>
+        </figure>
+        <figure class="figure">
+            <img src="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\Entrees\zoshua-colah-6pmevbrsq6o-unsplash.jpg" class="figure-img img-fluid rounded" alt="Entree2">
+            <figcaption class="figure-caption text-end">Thai Curry Chicken</figcaption>
+        </figure>
+        <figure class="figure">
+            <img src="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\Entrees\sean-bernstein-HlRQFgD8psA-unsplash.jpg" class="figure-img img-fluid rounded" alt="Entree3">
+            <figcaption class="figure-caption text-end">Salmon Dish</figcaption>
+        </figure>
+    </section>
+    <h2 class="food"> Desserts </h2>
+    <section>
+        <figure class="figure">
+            <img src="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\Desserts\fallon-michael-Fde8e30pJL4-unsplash.jpg" class="figure-img img-fluid rounded" alt="Dessert1">
+            <figcaption class="figure-caption text-end">Chocolate Deluxe Cheesecake</figcaption>
+        </figure>
+        <figure class="figure">
+            <img src="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\Desserts\nordwood-themes-SRT2ECEkBR8-unsplash.jpg" class="figure-img img-fluid rounded" alt="Dessert2">
+            <figcaption class="figure-caption text-end">Almond Joy Brownie</figcaption>
+        </figure>
+        <figure class="figure">
+            <img src="C:\Users\HP\Coding\Bootstrap Restaurant\Menu\Desserts\vicky-ng--qQlfYB7pqM-unsplash.jpg" class="figure-img img-fluid rounded" alt="Dessert3">
+            <figcaption class="figure-caption text-end">Mixed berry shortcake</figcaption>
+        </figure>
+    </section>
+    <footer>
+        <p>&copy; 2021 Restaurant</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const hamburger = document.querySelector(".hamburger");
+          const navCollapse = document.querySelector(".collapse.navbar-collapse");
+      
+          hamburger.addEventListener("click", () => {
+            navCollapse.classList.toggle("show");
+          });
+        });
+      </script>   
+</body>
+</html>    
